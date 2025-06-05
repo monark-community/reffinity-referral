@@ -6,7 +6,7 @@ import { QrCode, Users } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 px-4">
+    <section className="pt-32 px-4">
       <div className="container mx-auto text-center">
         <Badge variant="secondary" className="mb-6 bg-white/10 text-white border-white/20">
           🚀 Smart Contract Powered
