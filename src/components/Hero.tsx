@@ -39,21 +39,6 @@ const Hero = () => {
             View Dashboard
           </Button>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-            <div className="text-3xl font-bold text-white mb-2">10K+</div>
-            <div className="text-white/70">Active Referrers</div>
-          </div>
-          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-            <div className="text-3xl font-bold text-white mb-2">$2.5M</div>
-            <div className="text-white/70">Rewards Distributed</div>
-          </div>
-          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6">
-            <div className="text-3xl font-bold text-white mb-2">99.9%</div>
-            <div className="text-white/70">Uptime</div>
-          </div>
-        </div>
       </div>
     </section>
   );
