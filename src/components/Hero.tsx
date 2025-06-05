@@ -30,7 +30,11 @@ const Hero = () => {
             <Users className="mr-2 h-5 w-5" />
             Start Referring
           </Button>
-          <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 py-3">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/20 text-white hover:bg-white/10 bg-transparent px-8 py-3"
+          >
             <QrCode className="mr-2 h-5 w-5" />
             View Dashboard
           </Button>
